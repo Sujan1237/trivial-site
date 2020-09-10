@@ -1,2 +1,16 @@
-h1 {color: red;}
-body {background-color: beige;}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Sawarabi+Mincho&display=swap');
+
+h1 {color: red;
+    font-family: 'Bree Serif', serif;
+    font-size: xxx-large;
+}
+
+body {background-color: beige;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+#first {font-weight: bold;}
+
+li {
+    list-style-type: square;
+}
