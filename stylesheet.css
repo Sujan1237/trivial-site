@@ -4,12 +4,32 @@
 
 header>nav>ul>li {
     display: inline;
-    border: 2px solid greenyellow;
+    border-radius: 1ex;
+    background: linear-gradient(to top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); 
     margin: 4em;
-    padding: 2px;
+    padding: 8px;
 
 }
 
+header>nav a {
+    text-shadow: white 1px 1px 1px, white 0px 0px 6px;
+    color: black;
+}
+ 
+header>nav a:hover {
+    color: lightyellow;
+    text-shadow: black 0px 0px 3px, black 2px 2px 4px;
+}
+
+
+header>nav a:hover, .current-page {
+    color: lightyellow;
+    text-shadow: black 0px 0px 3px, black 2px 2px 4px;
+}
+
+  .current-page {
+    color: yellow ;
+}
 footer {
     text-align: right;
     font-size: 66%;
@@ -24,6 +44,28 @@ h1 {color: red;
 
 }
 
+
+label {
+       display: block;
+}
+
+       textarea, input[type=text], input [type=email]
+{
+        display: block;
+        width: 400px;
+        
+    }
+   
+    
+   
+
+    
+    
+
+       
+      
+
+
 body {background-color: lightcyan;
     font-family: 'Sawarabi Mincho', sans-serif;
 }
@@ -32,4 +74,7 @@ body {background-color: lightcyan;
 
 li {
     list-style-type: square;
+    
+ 
+
 }
