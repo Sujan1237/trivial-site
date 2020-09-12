@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Sawarabi+Mincho&display=swap');
 
+
+
 header>nav>ul>li {
     display: inline;
     border: 2px solid greenyellow;
     margin: 4em;
     padding: 2px;
+
 }
 
 footer {
     text-align: right;
     font-size: 66%;
 }
-h1 {color: red;
+
+
+
+h1 {color: red;  
     font-family: 'Bree Serif', serif;
-    font-size: xxx-large;
+    font-size: 300%;
+    
+
 }
 
 body {background-color: beige;
