@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Sawarabi+Mincho&display=swap');
 
 
+body {
+    background-color: black;
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
 
 header>nav>ul>li {
     display: inline;
@@ -40,19 +48,25 @@ footer {
 h1 {color: red;  
     font-family: 'Bree Serif', serif;
     font-size: 300%;
+}
+main {font-weight: bold;}
+
+
     
 
-}
+
 
 
 label {
        display: block;
+       
 }
 
        textarea, input[type=text], input [type=email]
 {
         display: block;
         width: 400px;
+        
         
     }
    
@@ -66,11 +80,11 @@ label {
       
 
 
-body {background-color: lightcyan;
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
 
-#first {font-weight: bold;}
+
+#first {font-weight: bold;
+         color: red;  }
+
 
 li {
     list-style-type: square;
