@@ -5,17 +5,21 @@ body {
     background-color: black;
     background-image: url(Images/background.jpg);
     background-size: cover;
-    font-family: 'Sawarabi Mincho', sans-serif;
+   font-family: 'Sawarabi Mincho', sans-serif;
+   
 }
 
 
 
 header>nav>ul>li {
-    display: inline;
-    border-radius: 1ex;
+    display: inline; 
+    border-radius: 2ex;
     background: linear-gradient(to top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); 
-    margin: 4em;
+    margin: 4px;
     padding: 8px;
+
+
+    
 
 }
 
@@ -43,13 +47,12 @@ footer {
     font-size: 66%;
 }
 
+main {
+    font-weight: bold;
+    image-rendering: auto;
 
-
-h1 {color: red;  
-    font-family: 'Bree Serif', serif;
-    font-size: 300%;
 }
-main {font-weight: bold;}
+
 
 
     
@@ -69,6 +72,7 @@ label {
         
         
     }
+    
    
     
    
